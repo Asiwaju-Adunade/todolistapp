@@ -16,11 +16,11 @@ function displayTask(taskValue) {
     let taskWrapper = document.createElement("div");
     taskWrapper.classList.add("task-wrapper");
     taskWrapper.innerHTML = `
-        <div class="mt-8 py-2 px-2 bg-white ml-16 mx-8 my-4 rounded text-2xl flex justify-between w-100">
-            <p class="p-1">${taskValue}</p>
+        <div class="my-5 p-2 bg-white mx-auto rounded text-2xl flex w-[450px] justify-between items-center">
+            <p>${taskValue}</p>
             <div>
                 <input type="checkbox">
-                <button class="delete-btn bg-green-300 hover:bg-red-500 rounded py-2 px-4ckco">Delete</button>
+                <button class="delete-btn bg-green-300 hover:bg-red-500 rounded py-2 px-4"> Delete </button>
             </div>
         </div>
     `;
