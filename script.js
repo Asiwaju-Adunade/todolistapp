@@ -16,7 +16,7 @@ function displayTask(taskValue) {
     let taskWrapper = document.createElement("div");
     taskWrapper.classList.add("task-wrapper");
     taskWrapper.innerHTML = `
-        <div class="my-5 p-2 bg-white mx-auto rounded text-2xl flex w-[450px] justify-between items-center">
+        <div class="my-5 p-2 bg-white mx-auto rounded text-2xl flex max-w-md justify-between items-center">
             <p>${taskValue}</p>
             <div>
                 <input type="checkbox">
