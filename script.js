@@ -20,7 +20,7 @@ function displayTask(taskValue) {
             <p>${taskValue}</p>
             <div>
                 <input type="checkbox">
-                <button class="delete-btn bg-green-300 hover:bg-red-500 rounded py-2 px-4"> Delete </button>
+                <button class="delete-btn bg-green-300 hover:bg-red-300 rounded p-1"> Delete </button>
             </div>
         </div>
     `;
